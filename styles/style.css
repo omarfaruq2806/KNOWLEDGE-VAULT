@@ -236,6 +236,7 @@ nav button:hover{
     background-color: #469165;
     color: #FFFFFF;
     margin: 0 auto 16px;
+    box-shadow: 5px 5px 20px rgba(70, 145, 101, 0.4);
 }
 .challenge-section div button:hover{
     cursor: pointer;
