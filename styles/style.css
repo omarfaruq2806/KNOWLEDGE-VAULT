@@ -41,7 +41,7 @@ nav ul {
     font-weight: 600;
     background-color: #469165;
 }
-
+.btn
 nav{
     display: flex;
     justify-content: space-between;
@@ -51,7 +51,7 @@ nav{
 
 /* hero section style */
 .hero-section{
-    background-image: url(../assets/hero-bg.png);
+    background-image: url("../assets/hero-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
