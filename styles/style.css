@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+button{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px ;
+    border: none;
+    border-radius: 4px;
+}
+   
+/* Navbar Style */
+nav div img {
+    width: 139px;
+}
+
+li{
+    list-style: none;
+}
+
+
+nav ul {
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    gap: 32px;
+}
+
+.btn-nav button{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #469165;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+}
+
+/* hero section style */
+.hero-section{
+    background-image: url(../assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding:120px 240px 200px ;
+}
+
+.hero-section div .text-welcome{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    display: inline;
+    background-color: #FFFFFF;
+    color: #469165;
+}
+
+.hero-section .main-text{
+    text-align: center;
+}
+
+.hero-section div .text-white{
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 700;
+    padding-top: 16px;
+}
+.hero-section div .text-green{
+    color: #469165;
+    font-size: 72px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.hero-section .hero-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.hero-section .build-vault{
+    background-color: #469165;
+    color: #FFFFFF;
+}
+.hero-section .play-btn{
+    background: none;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.btn-hero{
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+}
+
+
+/* cardsection style */
+
